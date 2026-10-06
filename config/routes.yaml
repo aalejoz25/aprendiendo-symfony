@@ -13,7 +13,7 @@ index:
 animales:
     path: /animales/{nombre}/{apellidos}
     controller: App\Controller\HomeController::animales
-    defaults: { nombre: 'juan', apellidos: 'perez'}
+    defaults: { nombre: 'alvaro', apellidos: 'zarabanda'}
     methods: [GET]
     requirements:
         nombre: '[a-zA-Z ]+'
